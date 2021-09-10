@@ -443,7 +443,7 @@ body {
     border-top: 1px solid #dee2e6;
 }
 
-.prices__footer a {
+.seccion-footer a {
     text-decoration: underline;
     color: #212529;
     font-weight: 500;
@@ -473,8 +473,11 @@ body {
 }
 
 .prices__footer {
-    text-align: center;
     padding: 72px 0 0;
+}
+
+.seccion-footer {
+    text-align: center;
 }
 
 .span {
@@ -484,4 +487,40 @@ body {
 
 ul li {
     list-style: none;
+}
+
+.questions {
+    padding: 100px 0;
+}
+
+.questions__card {
+    width: 540px;
+}
+
+.questions__parrafo {
+    margin: 24px 0 0;
+}
+
+.questions__card-contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.questions__full-card {
+    padding: 0 15px;
+}
+
+.questions__card-titulo {
+    margin: 0;
+    padding: 16px 0;
+    font-weight: 500;
+}
+
+.questions__card-parrafo {
+    margin: 0;
+    padding: 16px 0;
+}
+
+.questions__footer {
+    padding: 24px 0 0;
 }
