@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -239,7 +240,7 @@
                             BASIC
                         </h4>
                         <h2 class="prices__card-precio">
-                            <span class="span">$</span>49
+                            <span class="prices__span">$</span>49
                         </h2>
                         <ul class="prices__card-items">
                             <li class="prices__card-parrafo parrafo">5GB Linux Web Space</li>
@@ -382,72 +383,120 @@
             </div>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact seccion-padding">
         <div class="conteiner">
-            <h1 class="titulo">
-                Stay Tuned
-            </h1>
-            <p class="parrafo">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
-            </p>
-            <div class="contact__info">
-                <p class="parrafo">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            <div class="contact__inicio start seccion-margin">
+                <h1 class="contact__titulo titulo-base">
+                    Stay Tuned
+                </h1>
+                <p class="contact__parrafo parrafo text-aling">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
                 </p>
-                <div class="contact__items">
-                    <a href="">Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002</a>
-                    <a href="">+1 230 456 789-012 345 6789</a>
-                    <a href="">exampledomain@domain.com</a>
-                </div>
             </div>
-            <div class="contact__card">
-                <input type="text" name="Name" id="" placeholder="Name">
-                <input type="text" name="" id="" placeholder="Email">
-                <input type="text" name="" id="" placeholder="Subject">
-                <input type="text" name="" id="" placeholder="Message">
-                <button class="contact__buttom buttom-sizes">
-                    Send Message
-                </button>
+            <div class="contact__full-card">
+                <div class="contact__info">
+                    <p class="contact__info-parrafo parrafo">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                    <ul class="contact__items">
+                        <li class="contact__item">
+                            <div class="social-media">
+                                <i class="fa fa-home fa-w-18"></i>
+                            </div>
+                            <a class="contact__link link-color" href="">
+                                Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <div class="social-media">
+                                <i class="fa fa-phone-alt fa-w-16"></i>
+                            </div>
+                            <a class="contact__link link-color" href="">
+                                <span class="contact__items-parrafo">+1 230 456 789-012 345 6789</span>
+                            </a>
+                        </li>  
+                        <li class="contact__item">
+                            <div class="social-media">
+                                <i class="fa fa-envelope fa-w-16"></i>
+                            </div>
+                            <a class="contact__link link-color" href="">
+                                <span class="contact__items-parrafo">exampledomain@domain.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="contact__forms">
+                    <div class="contact__form">
+                        <input class="contact__form-text" type="text" name="name" id="" placeholder="Name">
+                    </div>
+                    <div class="contact__form">
+                        <input class="contact__form-text" type="text" name="email" id="" placeholder="Email">
+                    </div>
+                    <div class="contact__form">
+                        <input class="contact__form-text" type="text" name="" id="" placeholder="Subject">
+                    </div>
+                    <div class="contact__form">
+                        <textarea class="contact__form-text msg-size" name="" placeholder="Message" required="required"></textarea>
+                    </div>
+                    <button class="buttom__sizes">
+                        <i class="contact-svg"><svg class="svg-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="paper-plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg></i>Send Message 
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="conteiner">
+    <div class="footer seccion-padding">
+        <div class="footer__card conteiner">
             <div class="footer__info">
                 <img src="./images/logo.png" alt="">
-                <p class="parrafo">
+                <p class="footer__parrafo parrafo">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.
                 </p>
+                <div class="footer__info-icons">
+                    <div class="social-media bg-facebook social-icons">
+                        <i class="fab fa-facebook-f fa-w-10 "></i>
+                    </div>
+                    <div class="social-media bg-twitter social-icons">
+                        <i class="fab fa-twitter fa-w-16"></i>
+                    </div>
+                    <div class="social-media bg-google social-icons">
+                        <i class="fab fa-google-plus-g fa-w-20"></i>
+                    </div>
+                    <div class="social-media bg-vine social-icons">
+                        <i class="fab fa-vine fa-w-12"></i>
+                    </div>
+                </div>
             </div>
             <div class="footer__menu">
                 <div class="footer__menu-links">
                     <h2 class="footer__titulo">
                         Useful Links
                     </h2>
-                    <a href="">Home</a>
-                    <a href="">About Us</a>
-                    <a href="">Services</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
+                    <a class="footer__menu-link link-color" href="">Home</a>
+                    <a class="footer__menu-link link-color" href="">About Us</a>
+                    <a class="footer__menu-link link-color" href="">Services</a>
+                    <a class="footer__menu-link link-color" href="">Blog</a>
+                    <a class="footer__menu-link link-color" href="">Contact</a>
                 </div>
                 <div class="footer__menu-links">
                     <h2 class="footer__titulo">
                         Product Help
                     </h2>
-                    <a href="">FAQ</a>
-                    <a href="">Privacy Policy</a>
-                    <a href="">Suppot</a>
-                    <a href="">Terms & Conditions</a>
-                    <a href="">Contact</a>
+                    <a class="footer__menu-link link-color" href="">FAQ</a>
+                    <a class="footer__menu-link link-color" href="">Privacy Policy</a>
+                    <a class="footer__menu-link link-color" href="">Suppot</a>
+                    <a class="footer__menu-link link-color" href="">Terms & Conditions</a>
+                    <a class="footer__menu-link link-color" href="">Contact</a>
                 </div>
-                </div>
+            </div>
             <div class="footer__apps">
                 <h2 class="footer__titulo">
                     Download
                 </h2>
                 <div class="footer__apps-img">
-                    <img src="./images/google-play-black.png" alt="">
-                    <img src="./images/app-store-black.png" alt="">
+                    <img class="footer-icon" src="./images/google-play-black.png" alt="">
+                    <img class="footer-icon" src="./images/app-store-black.png" alt="">
                 </div>
             </div>
         </div>
